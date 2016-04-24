@@ -204,7 +204,7 @@ class Gear:
     def gear_inches(self):
         return self.ratio() * self.wheel.diameter
 
-    # Python doesn't have any analog like the do .. end syntax in Ruby. It seems
+    # Python doesn't have any analog to the do .. end syntax in Ruby. It seems
     # the only options are to leave the diameter method exposed in the main
     # class, or create a new class for Wheel, which is the next example. I'm
     # open to suggestions though if someone knows a way to do it.
